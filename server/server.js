@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://imaginexx.vercel.app", // Change '*' to your frontend domain in production like "https://yourfrontend.vercel.app"
+    origin:"https://imaginexx.vercel.app", // Change '*' to your frontend domain in production like "https://yourfrontend.vercel.app"
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
