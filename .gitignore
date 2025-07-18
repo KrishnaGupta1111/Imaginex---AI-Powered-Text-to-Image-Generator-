@@ -1,0 +1,41 @@
+# ✅ Node.js (Backend)
+node_modules/
+.env
+dist/
+build/
+coverage/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+.DS_Store
+
+# ✅ Frontend (React / Vite / Next.js)
+**/node_modules/
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+**/build/
+**/dist/
+**/.next/
+.next/
+out/
+
+# ✅ System & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+
+
+# ✅ Optional: ignore uploads/images (if dynamically saved)
+uploads/
+public/uploads/
